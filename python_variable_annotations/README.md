@@ -30,3 +30,6 @@
 
 *   8-make_multiplier.py
     - Write a type-annotated function `make_multiplier` that takes a float `multiplier` as argument and returns a function that multiplies a float by `multiplier`.
+
+*   9-element_length.py
+    - Annotate these function’s parameters and return values with the appropriate types.
