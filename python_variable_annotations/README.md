@@ -18,3 +18,6 @@
       - `pi`, a float with a value of 3.14
       - `i_understand_annotations`, a boolean with a value of True
       - `school`, a string with a value of “Holberton”
+
+*   5-sum_list.py
+    - Write a type-annotated function `sum_list` which takes a list `input_list` of floats as argument and returns their sum as a float.
