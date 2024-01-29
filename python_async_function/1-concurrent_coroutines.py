@@ -11,8 +11,6 @@ wait_random = __import__('0-basic_async_syntax').wait_random
 
 async def wait_n(n: int, max_delay: int) -> List[float]:
     """Function that returns list of all the delays"""
-    delays = []
-    for _ in range(n):
-        task = await wait_random(max_delay)
-        delays.append(task)
-    return sorted(delays)
+    delays = [asyncio.create_task(wait_random(max_delay)) for i in range(n)]
+    finish = [await task for task in asyncio.as_completed(delays)]
+    return finish
