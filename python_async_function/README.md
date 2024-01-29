@@ -16,3 +16,6 @@
 *   3-tasks.py
     - Import `wait_random` from `0-basic_async_syntax`.
       - Write a function (do not create an async function, use the regular function syntax to do this) `task_wait_random` that takes an integer `max_delay` and returns a `asyncio.Task`.
+
+*   4-tasks.py
+    - Take the code from `wait_n` and alter it into a new function `task_wait_n`. The code is nearly identical to `wait_n` except `task_wait_random` is being called.
