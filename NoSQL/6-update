@@ -1,2 +1,2 @@
-// Display number of doc in collection
-db.school.count()
+// Adds a new attribute to a document in a collection
+db.school.update({ name : "Holberton school" }, { $set: { address: "972 Mission street" } }, { multi: true })
