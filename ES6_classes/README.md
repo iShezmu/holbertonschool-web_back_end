@@ -74,3 +74,8 @@
       - Each attribute must be stored in an `"underscore"` attribute version (ex: `name` is stored in `_name`)
       - When the class is cast into a `Number`, it should return the size.
       - When the class is cast into a `String`, it should return the location.
+
+*   9-hoisting.js
+    - Fix the code and make it work.
+
+
