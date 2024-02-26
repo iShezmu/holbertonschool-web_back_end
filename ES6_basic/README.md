@@ -34,3 +34,8 @@
 
 *   10-loops.js
     - Rewrite the function `appendToEachArrayValue` to use ES6's `for...of` operator. And don't forget that `var` is not ES6-friendly.
+
+*   11-createEmployeesObject.js
+    - Write a function named `createEmployeesObject` that will receive two arguments:
+      - `departmentName` (String)
+      - `employees` (Array of Strings)
