@@ -10,3 +10,6 @@
 
 *   2-arrow.js
     - Rewrite the following standard function to use ES6's arrow syntax of the function `add` (it will be an anonymous function after)
+
+*   3-default-parameter.js
+    - Condense the internals of the following function to 1 line - without changing the name of each function/variable.
