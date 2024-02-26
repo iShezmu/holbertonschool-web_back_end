@@ -25,3 +25,6 @@
 
 *   7-getBudgetObject.js
     - Modify the following function's `budget` object to simply use the keyname instead.
+
+*   8-getBudgetCurrentYear.js
+    - Rewrite the `getBudgetForCurrentYear` function to use ES6 computed property names on the `budget` object.
