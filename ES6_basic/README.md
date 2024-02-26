@@ -39,3 +39,6 @@
     - Write a function named `createEmployeesObject` that will receive two arguments:
       - `departmentName` (String)
       - `employees` (Array of Strings)
+
+*   12-createReportObject.js
+    - Write a function named `createReportObject` whose parameter, `employeesList`, is the return value of the previous function `createEmployeesObject`.
